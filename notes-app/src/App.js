@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 
 const SAMPLE_NOTES = [
-  { id: 1, title: "Welcome to Jot It!", content: "", color: "#f5a623", pinned: true, createdAt: new Date(Date.now() - 86400000 * 2) },
+  { id: 1, title: "Welcome to Jot Em!", content: "", color: "#f5a623", pinned: true, createdAt: new Date(Date.now() - 86400000 * 2) },
   { id: 2, title: "Project Ideas", content: "• Build a habit tracker\n• Learn Rust\n• Read 12 books this year\n• Morning journaling routine", color: "#7ed321", pinned: false, createdAt: new Date(Date.now() - 86400000) },
   { id: 3, title: "Shopping List", content: "Milk, eggs, bread, coffee beans, olive oil, pasta, fresh basil", color: "#4a90e2", pinned: false, createdAt: new Date(Date.now() - 3600000) },
 ];
